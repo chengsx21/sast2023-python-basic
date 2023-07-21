@@ -6,7 +6,7 @@ if __name__ == "__main__":
     st.set_page_config(page_title="Cloze Test", page_icon=":100:", layout="wide", initial_sidebar_state="auto")
     st.title("💡 Create Game")
     st.sidebar.write("#### Game Buddy")
-    st.sidebar.image("images/3.gif", caption="Kawaii Paimon", use_column_width=True)
+    st.sidebar.image("GUI/images/3.gif", caption="Kawaii Paimon", use_column_width=True)
 
 
     c1, c2 = st.columns(2)
@@ -81,7 +81,7 @@ if __name__ == "__main__":
                 c.write(f"Hint {i+1}. {hint}")
             button.button("Success", use_container_width=True, disabled=True)
 
-            with open("example.json", "r", encoding="utf-8") as f:
+            with open("GUI/example.json", "r", encoding="utf-8") as f:
                 data = json.load(f)
                 new_article = {
                     "title": article_title,
@@ -94,5 +94,5 @@ if __name__ == "__main__":
                     if item["language"] == "zh" and article_lang == "Chinese":
                         item["articles"].append(new_article)
 
-            with open("example.json", "w", encoding="utf-8") as f:
+            with open("GUI/example.json", "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=4)

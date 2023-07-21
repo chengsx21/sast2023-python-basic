@@ -75,4 +75,4 @@ if __name__ == "__main__":
         st.info('**Mail: [@chengsx21](mailto:chengsx21@gmail.com)**', icon="📮")
 
     st.sidebar.write("#### Game Buddy")
-    st.sidebar.image("images/4.gif", caption="Kamisato Ayaka", use_column_width=True)
+    st.sidebar.image("GUI/images/4.gif", caption="Kamisato Ayaka", use_column_width=True)

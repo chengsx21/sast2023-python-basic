@@ -21,7 +21,7 @@ if __name__ == "__main__":
     st.title("🎮 Specific Mode")
     st.info("You can specify a specific article for the game!", icon="🔥")
     st.sidebar.write("#### Game Buddy")
-    st.sidebar.image("images/2.gif", caption="Kawaii Paimon", use_column_width=True)
+    st.sidebar.image("GUI/images/2.gif", caption="Kawaii Paimon", use_column_width=True)
 
     if "chosen" not in st.session_state:
         # article_lang = "English"
@@ -29,7 +29,7 @@ if __name__ == "__main__":
         c1, c2 = st.columns([1, 2])
         with c1:
             st.session_state["article_lang"] = st.radio("Choose the language:", ["English", "Chinese"], horizontal=True)
-        with open("example.json", "r", encoding="utf-8") as f:
+        with open("GUI/example.json", "r", encoding="utf-8") as f:
             data = json.load(f)
             for item in data:
                 if item["language"] == "en":

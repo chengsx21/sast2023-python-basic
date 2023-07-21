@@ -18,7 +18,7 @@ if __name__ == "__main__":
     st.title("👊🏻 Random Mode")
     st.info("Completely random! Guess what you'll get!", icon="🔥")    
     st.sidebar.write("#### Game Buddy")
-    st.sidebar.image("images/1.gif", caption="Kawaii Paimon", use_column_width=True)
+    st.sidebar.image("GUI/images/1.gif", caption="Kawaii Paimon", use_column_width=True)
 
     with st.form(key="submit-form"):
         blanks = []
@@ -30,7 +30,7 @@ if __name__ == "__main__":
             st.session_state["first_time"] = True
             with st.spinner("Loading..."):
                 time.sleep(1)
-            with open("example.json", 'r', encoding="utf-8") as f:
+            with open("GUI/example.json", 'r', encoding="utf-8") as f:
                 st.session_state["data"] = json.load(f)
             st.session_state["article"] = random.choice(st.session_state["data"][random.randint(0, 1)]["articles"])
         st.write(f"### Title\n*{st.session_state['article']['title']}*")
