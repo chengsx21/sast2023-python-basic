@@ -1,0 +1,63 @@
+[
+    {
+        "language": "zh",
+        "articles": [
+            {
+                "title": "贵系日常",
+                "article": "我们都爱{{1}}这门课程。这门课程是多么的{{2}}，以至于所有人都在课程上认真地{{3}}。在设计数字电路时,我们需要运用到逻辑门、半导体存储器等知识。这些内容相互联系,共同构成复杂的数字电路。这门课能启发我们的逻辑思维能力和科学思考能力。通过为难我们的练习和作业,我们的理解能力和解决问题的能力得到了提高。这些将对今后的{{4}}和工作有很大益处。",
+                "hints": [
+                    "教材名称",
+                    "形容词",
+                    "动词，与学生相关",
+                    "你最喜欢做的事情"
+                ]
+            },
+            {
+                "title": "一个不玩原神的人",
+                "article": "一个不玩{{1}}的人，有两种可能性。一种是没有能力玩原神。因为{{2}}等各种自身因素，他的人生都是失败的，第二种可能：有能力却不玩原神的人，在有能力而没有玩原神的想法时，那么这个人的思想境界便{{3}}，是灰暗的，是不被真正的社会认可的。",
+                "hints": [
+                    "一款二字开放世界游戏",
+                    "没有能力的外在体现",
+                    "非常可悲"
+                ]
+            },
+            {
+                "title": "众所周知",
+                "article": "锄大地时我爆了蓝面具。众所周知蓝面具＝3绿面具＝{{1}}尘辉＝3抽的副产物。即使是副产物也足显米哈游的慷慨，于是我原地跪下跪了五分钟。以此类推{{2}}。也有相当的价值，由于锄地爆率还不错，我把桌子腿全锯了方便我{{3}}玩游戏也能够到电脑。",
+                "hints": [
+                    "计算尘辉数",
+                    "关于面具与原石的价值比较",
+                    "一种坐姿，在日本较为常见"
+                ]
+            },
+            {
+                "title": "你说得对，但是",
+                "article": "你说的对，但是《{{1}}》是由{{2}}自主创作的一首全新开放世界冒险游戏。游戏发生在一个被称作「{{3}}」的幻想世界，在这里，被选中的人将被授予「{{4}}」。你将扮演一位名为「{{5}}」的神秘角色，在旅行中拯救{{6}}，掌握{{7}}——同时，逐步发掘「{{8}}」的真相。",
+                "hints": [
+                    "一款游戏",
+                    "一家游戏公司",
+                    "背景设定地",
+                    "赋予的神力",
+                    "虚拟角色名",
+                    "旅途上的好帮手",
+                    "独特技能",
+                    "发掘的秘密"
+                ]
+            }
+        ]
+    },
+    {
+        "language": "en",
+        "articles": [
+            {
+                "title": "Stars shine for photographers",
+                "article": "Stargazing tourism is shining bright in Hami prefecture, the Xinjiang Uygur {{1}} region, as local government hosts a series of events to promote its starry skies for photographers and tourists alike this summer. With a theme of \"unlocking the secrets of starry skies\", the event offered {{2}} for the photographers to capture the stunning views of the stars while enjoying the beautiful scenery and the unique {{3}} culture in Hami.",
+                "hints": [
+                    "adj. able to govern itself",
+                    "phr. a situation or condition favorable for attainment of a goal",
+                    "adj. individuals who share common characteristics that differentiate them from the others in a society"
+                ]
+            }
+        ]
+    }
+]
