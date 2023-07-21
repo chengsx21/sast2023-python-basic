@@ -83,7 +83,10 @@ if __name__ == "__main__":
                     if st.session_state["article_with_blanks"] == "":
                         st.warning("⚠️ Error! Submit first!")
                     else:
-                        pyperclip.copy(st.session_state["article_with_blanks"])
+                        try:
+                            pyperclip.copy(st.session_state["article_with_blanks"])
+                        except:
+                            st.warning("⚠️ Error! Your system seems not to support pyperclip!")
                         st.session_state["article_with_blanks"] = ""
 
             with column5:
